@@ -1,0 +1,15 @@
+{
+  "name": "search_filter",
+  "version": "1.0.0",
+  "description": "Grants the ability to filter through your list of people",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "const micromatch = require('micromatch');"
+  },
+  "author": "Aidan",
+  "license": "MIT",
+  "dependencies": {
+    "micromatch": "^4.0.2"
+  }
+}
