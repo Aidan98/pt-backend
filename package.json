@@ -1,0 +1,17 @@
+{
+  "name": "search_filter",
+  "version": "1.0.0",
+  "description": "Grants the ability to filter through your list of people",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "const micromatch = require('micromatch');"
+  },
+  "author": "Aidan",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "micromatch": "^4.0.2"
+  }
+}
