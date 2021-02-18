@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'sfuidisplay';
+    src: url('../fonts/SFUIDisplay-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'sfuidisplayR';
+    src: url('../fonts/SFUIDisplay-Regular.ttf');
+}
+
+html {
+    height: 100%; 
+    /* https://stackoverflow.com/questions/16841323/making-gradient-background-fill-page-with-css/16841457 */
+    background-image: linear-gradient(#F4AD5B, #E44B91);
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0em;
+    padding: 0em;
+}
+
+
+header {
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main {
+    display: flex;
+    position: absolute;
+    flex-flow: nowrap;
+    /* justify-content: space-around; */
+    width: 100%;
+    height: auto;
+    overflow-x: scroll;
+    /* scrollbar-width: none; */
+}
+
+footer {
+height: 100px;
+}
+footer > ul {
+    width: 100%;
+}
+footer > ul > li {
+background-color: #FFFFFF;
+}
+
+main > section {
+    margin-left: 1em;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: auto;
+    height: 486px;
+}
+
+section > img {
+    display: block;
+    width: 370px;
+    height: 76%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+li {
+    display: inline-block;
+    float: none;
+    margin: 1em;
+}
+
+h1, h2{ 
+    font-family: 'sfuidisplayR';
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.36px;
+}
+
+p {
+    font-family: 'sfuidisplayR';
+    font-size: 14px;
+}
+
+main > section > p {
+    margin-left: 2%;
+    color: #828282;
+}
+
+h1 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+h2 {
+    margin-left: 2%;
+    font-size: 18px;
+}
